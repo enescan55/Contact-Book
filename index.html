@@ -1,22 +1,80 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Contact Book</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <title>Contact Book</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <ul class="navigation">
+      <li>
+        <strong><em>Contact Book</em></strong>
+      </li>
+      <li class="active">My Contact List</li>
+      <li>My Profile</li>
+      <li>Log Out</li>
+    </ul>
 
-  <ul class="navigation">
-    <li><strong><em>Contact Book</em></strong></li>
-    <li class="active">My Contact List</li>
-    <li>My Profile</li>
-    <li>Log Out</li>
-  </ul>
+    <div class="search">Search the table</div>
 
-  <div class="search">Search the table</div>
-
-  <!-- Create your table below -->
-
-</body>
+    <!-- Create your table below -->
+  
+    <table>
+     <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">NAME</th>
+        <th scope="col">MAIL</th>
+        <th scope="col">NUMBER</th>
+        <th scope="col">ADRESS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scoce="row">01</th>
+        <td>george cook</td>
+        <td>george@gmail.com</td>
+        <td>(117)-112-233</td>
+        <td>collage street</td>
+      </tr>
+      <tr>
+        <th scoce="row">02</th>
+        <td>aruna taylor</td>
+        <td>aruna23@hotmail.com</td>
+        <td>(553)-112-147</td>
+        <td>onepoint street</td>
+      </tr>
+      <tr>
+        <th scoce="row">03</th>
+        <td>leonardo jr</td>
+        <td>humanist123@outlook.com</td>
+        <td>(497)-145-123</td>
+        <td rowspan="2"></td>
+      </tr>
+      <tr>
+        <th scoce="row">04</th>
+        <td>tomy</td>
+        <td>hilfiger@gmail.com</td>
+        <td>(404)123-654</td>
+        
+      </tr>
+      <tr>
+        <th scope="row">05</th>
+        <td>kenny revius</td>
+        <td>kenny_r@hotmail.com</td>
+        <td>(532)-220-114</td>
+        <td>legend street no:12</td>
+      </tr>
+      <tr>
+      </tbody>
+      <tfoot>
+        <th scoce="row"colspan="4">total contacts:</th>
+        <td>5</td>
+       </tr>
+     </tfoot>
+    </table>
+  </body>
 </html>
